@@ -79,7 +79,7 @@ function handler() {
             output.innerText = "Yay! Your birthday is Palindrome🥳🥳";
         }
         else {
-            output.innerText = "Your birthday is Palindrome😕😕";
+            output.innerText = "Your birthday is not Palindrome😕😕";
         }
     }
 }
