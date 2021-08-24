@@ -76,10 +76,10 @@ function handler() {
         }
         var answer = checkPalindromeForAllFormats(date);
         if(answer) {
-            output.innerText = "Palindrome";
+            output.innerText = "Yay! Your birthday is Palindrome🥳🥳";
         }
         else {
-            output.innerText = "Not Palindrome";
+            output.innerText = "Your birthday is Palindrome😕😕";
         }
     }
 }
